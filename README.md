@@ -1,4 +1,4 @@
-![Hi my name is David](./1500x500.jpg)
+![Hi my name is David](https://raw.githubusercontent.com/davidn0rman/davidn0rman/master/1500x500.jpg)
 
 ### I am a budding Front End Developer and UX Designer from 🇬🇧
 
