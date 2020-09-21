@@ -13,7 +13,8 @@ When I'm not working or dadding, you can find me in these suspect places:
 
 ## Personal website stats:
 
-![Website status](https://img.shields.io/website?label=davidnorman.info&url=https%3A%2F%2Fdavidnorman.info%2F) ![Language usage](https://img.shields.io/github/languages/top/davidn0rman/website) ![Last commit](https://img.shields.io/github/last-commit/davidn0rman/website) ![Website size](https://img.shields.io/github/languages/code-size/davidn0rman/website)
+![Website status](https://img.shields.io/website?label=davidnorman.info&url=https%3A%2F%2Fdavidnorman.info%2F) ![Language usage](https://img.shields.io/github/languages/top/davidn0rman/website) ![Last commit](https://img.shields.io/github/last-commit/davidn0rman/website) ![Website size](https://img.shields.io/github/languages/code-size/davidn0rman/website) ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
+
 
 <!--
 **davidn0rman/davidn0rman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
