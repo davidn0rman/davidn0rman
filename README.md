@@ -2,7 +2,7 @@
 
 ### I am a Front End Developer and UX/UI Designer from 🇬🇧
 
-I am currently working at [Zenith](https://www.zenith.co.uk/) as a UX/UI Developer, and in my spare time I'm full time Dad.
+I am currently working as a UX/UI Developer, and in my spare time I'm full time Dad.
 
 When I'm not working or dadding, you can find me in these suspect places:
 
