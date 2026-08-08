@@ -1,0 +1,163 @@
+<svg fill="none" width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap');
+
+        .card {
+          /* Gradient background fading to transparent at the bottom */
+          background: linear-gradient(180deg, #0d1117 0%, #0d1117 75%, rgba(13, 17, 23, 0) 100%);
+          border: 1px solid #30363d;
+          border-bottom: none; /* Removed bottom border for seamless gradient fade */
+          border-radius: 12px 12px 0 0;
+          padding: 24px 24px 0 24px;
+          font-family: 'Inter', sans-serif;
+          box-sizing: border-box;
+          height: 300px;
+          color: #f7f7ff;
+        }
+
+        .layout {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          height: 100%;
+        }
+
+        .content-area {
+          flex-grow: 1;
+          padding-right: 20px;
+        }
+
+        .profile-wrapper {
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .profile-img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border: 3px solid #30363d;
+          background-color: #161b22;
+        }
+
+        p { margin: 0 0 10px 0; line-height: 1.5; }
+
+        .title {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 6px;
+        }
+
+        .details, .suspect-places {
+          font-size: 15px;
+          font-weight: 400;
+          color: #f7f7ff;
+        }
+
+        .details { margin-bottom: 16px; }
+
+        /* Dedicated container for larger dynamic text */
+        .typing-container {
+          display: block;
+          height: 32px;
+          margin-bottom: 4px;
+        }
+
+        /* Larger size and custom blue accent color */
+        .typing-text {
+          font-size: 24px;
+          font-weight: 700;
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 3px solid #279AF1;
+          color: #279AF1;
+          animation: 
+            type-cycle 15s steps(30, end) infinite,
+            cursor-blink 0.75s step-end infinite;
+        }
+
+        .places-title {
+          font-weight: 600;
+          margin-bottom: 8px;
+          display: block;
+        }
+
+        /* 15-second loop across 5 items */
+        @keyframes type-cycle {
+          /* Phrase 1: Front-End Developer */
+          0% { width: 0; }
+          3%, 17% { width: 20ch; }
+          20% { width: 0; }
+
+          /* Phrase 2: UX Designer */
+          21% { width: 0; }
+          24%, 37% { width: 12ch; }
+          40% { width: 0; }
+
+          /* Phrase 3: Mechanical keyboard enthusiast */
+          41% { width: 0; }
+          44%, 57% { width: 31ch; }
+          60% { width: 0; }
+
+          /* Phrase 4: Car lover */
+          61% { width: 0; }
+          64%, 77% { width: 10ch; }
+          80% { width: 0; }
+
+          /* Phrase 5: Tired Dad */
+          81% { width: 0; }
+          84%, 97% { width: 10ch; }
+          100% { width: 0; }
+        }
+
+        .typing-text::before {
+          content: "Front-End Developer";
+          animation: text-switch 15s infinite;
+        }
+
+        @keyframes text-switch {
+          0%, 20% { content: "Front-End Developer"; }
+          21%, 40% { content: "UX Designer"; }
+          41%, 60% { content: "Mechanical keyboard enthusiast"; }
+          61%, 80% { content: "Car lover"; }
+          81%, 100% { content: "Tired Dad"; }
+        }
+
+        @keyframes cursor-blink {
+          50% { border-color: transparent; }
+        }
+      </style>
+
+      <div class="card">
+        <div class="layout">
+          
+          <div class="content-area">
+            <p class="title">Hi! I'm David, and I am a...</p>
+            
+            <div class="typing-container">
+              <span class="typing-text"></span>
+            </div>
+
+            <p>from 🇬🇧</p>
+            
+            <p class="details">
+              I am currently working as a UX/UI Developer, and in my spare time I'm full time Dad.
+            </p>
+            
+            <span class="places-title suspect-places">When I'm not working or dadding, you can find me in these suspect places:</span>
+          </div>
+
+          <div class="profile-wrapper">
+            <img class="profile-img" src="https://avatars.githubusercontent.com/u/20046480?v=4" alt="Profile" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
