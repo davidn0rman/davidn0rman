@@ -72,7 +72,7 @@
           display: inline-block;
           white-space: nowrap;
           overflow: hidden;
-          border-right: 3px solid #279AF1;
+          border-right: 10px solid #45CB85;
           color: #279AF1;
           animation: 
             type-cycle 15s steps(30, end) infinite,
@@ -99,27 +99,27 @@
         @keyframes type-cycle {
           /* Phrase 1: Front-End Developer */
           0% { width: 0; }
-          3%, 17% { width: 20ch; }
+          3%, 17% { width: 18ch; }
           20% { width: 0; }
 
           /* Phrase 2: UX Designer */
           21% { width: 0; }
-          24%, 37% { width: 12ch; }
+          24%, 37% { width: 11ch; }
           40% { width: 0; }
 
           /* Phrase 3: Mechanical keyboard enthusiast */
           41% { width: 0; }
-          44%, 57% { width: 31ch; }
+          44%, 57% { width: 28ch; }
           60% { width: 0; }
 
           /* Phrase 4: Car lover */
           61% { width: 0; }
-          64%, 77% { width: 10ch; }
+          64%, 77% { width: 8ch; }
           80% { width: 0; }
 
           /* Phrase 5: Tired Dad */
           81% { width: 0; }
-          84%, 97% { width: 10ch; }
+          84%, 97% { width: 8.5ch; }
           100% { width: 0; }
         }
 
