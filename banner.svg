@@ -1,0 +1,66 @@
+<svg fill="none" width="800" height="240" viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap');
+
+        .card {
+          background: #0d1117;
+          border: 1px solid #30363d;
+          border-radius: 12px;
+          padding: 32px;
+          font-family: 'Inter', sans-serif;
+          box-sizing: border-box;
+          height: 240px;
+        }
+
+        /* Line 1: Standard Heading Sizing */
+        .h1-text {
+          font-size: 24px;
+          font-weight: 600;
+          color: #8b949e;
+          margin: 0 0 8px 0;
+        }
+
+        /* Line 2: Big Bold Animated Typing */
+        .typing-text {
+          font-size: 42px;
+          font-weight: 800;
+          background: linear-gradient(90deg, #f75c7e, #6c5ce7);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 3px solid #f75c7e;
+          animation: typing 4s steps(22) infinite alternate, blink 0.75s step-end infinite;
+          margin-bottom: 12px;
+        }
+
+        /* Line 3: Normal weight, normal size */
+        .sub-text {
+          font-size: 16px;
+          font-weight: 400;
+          color: #c9d1d9;
+          margin: 0;
+        }
+
+        /* Keyframes for CSS Animation */
+        @keyframes typing {
+          0% { width: 0; }
+          50%, 100% { width: 14ch; } /* Adjust 'ch' based on character count */
+        }
+
+        @keyframes blink {
+          50% { border-color: transparent; }
+        }
+      </style>
+
+      <div class="card">
+        <p class="h1-text">Hi, I’m David and I am a</p>
+        <div class="typing-text">Full-Stack Dev</div>
+        <p class="sub-text">From England 🇬🇧</p>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
