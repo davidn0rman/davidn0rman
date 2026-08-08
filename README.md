@@ -1,10 +1,5 @@
-![Hi my name is David](https://raw.githubusercontent.com/davidn0rman/davidn0rman/master/1500x500.jpg)
+![My Profile Banner](./secret-sauce/banner.svg)
 
-### I am a Front End Developer and UX/UI Designer from 🇬🇧
-
-I am currently working as a UX/UI Developer, and in my spare time I'm full time Dad.
-
-When I'm not working or dadding, you can find me in these suspect places:
 
 - [My website](https://davidnorman.uk/)
 - [My Twitter](https://twitter.com/davidn0rman/)
