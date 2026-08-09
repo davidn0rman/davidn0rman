@@ -166,23 +166,17 @@
           95%, 100% { stroke-dashoffset: 0; opacity: 0; }
         }
       </style>
-
       <div class="card">
         <div class="layout">
-          
           <div class="content-area">
             <p class="title">Hi! I'm David, and I am a...</p>
-            
             <div class="typing-container">
               <span class="typing-text"></span>
             </div>
-
             <p>from 🇬🇧</p>
-            
-            <p class="details">
+            <!-- <p class="details">
               I am currently working as a UX/UI Developer, and in my spare time I'm full time Dad.
-            </p>
-            
+            </p> -->
             <span class="places-title suspect-places">When I'm not working or dadding, you can find me in these suspect places:</span>
           </div>
 

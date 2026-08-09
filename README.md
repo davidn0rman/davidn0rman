@@ -1,10 +1,9 @@
 # About me
 
-![My Profile Banner](./secret-sauce/banner.svg)
-
+![Hi! I'm David, and I'm a UI Developer from the United Kingdom. When I'm not working or dadding, you can find me in these suspect places:](./secret-sauce/banner.svg)
 
 - [My website](https://davidnorman.uk/)
-- [My Twitter](https://twitter.com/davidn0rman/)
+- [My Twitter](https://x.com/davidn0rman/)
 - [My LinkedIn](https://www.linkedin.com/in/davidn0rman/)
 - [My bed](https://www.ikea.com/gb/en/p/malm-ottoman-bed-black-brown-50404819/)
 
