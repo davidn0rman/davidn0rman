@@ -1,5 +1,5 @@
-<svg fill="none" width="838" height="280" viewBox="0 0 838 280" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="838" height="280">
+<svg fill="none" width="838" height="235" viewBox="0 0 838 235" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="838" height="235">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap');
@@ -10,7 +10,7 @@
           padding: 24px;
           font-family: 'Inter', sans-serif;
           box-sizing: border-box;
-          height: 280px;
+          height: 235px;
           color: #f7f7ff;
           position: relative;
         }
